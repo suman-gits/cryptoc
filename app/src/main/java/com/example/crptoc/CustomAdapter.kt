@@ -60,7 +60,7 @@ class CustomAdapter(private var dataSet: ArrayList<model>) :
 
 
     }
-    fun updateList(newlist: List<model>){        //for searchbar
+    fun updateList(newlist: List<model>){       //for updating the adapter for searchbar
         dataSet= newlist as ArrayList<model>
         notifyDataSetChanged()
 
